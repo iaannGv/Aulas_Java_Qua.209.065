@@ -1,0 +1,21 @@
+package principal;
+
+import java.util.Scanner;
+
+public class atividade_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner leia = new Scanner(System.in);	
+		
+		int num1=10;
+		int num2=20;
+		int resultado = num1 + num2;
+		
+		System.out.println(" O resultado é:"+(num1 + num2));
+		
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package principal;
+
+import java.util.Scanner;
+
+public class atividade_07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
+		
+		Scanner leia = new Scanner(System.in);
+		
+        double tempCelsius;
+		
+		System.out.println(" Qual a temperatura em Celsius:");
+	    tempCelsius = leia.nextDouble (); 
+	    
+	    double tempFahrenheit = (5 * (tempCelsius-32)/9);
+	    
+	    System.out.println("A temperatura em grau Fahrenheit é: " + tempFahrenheit);
+
+	}
+
+}
